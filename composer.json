@@ -1,6 +1,6 @@
 {
   "name": "libre-pim/librepim-standard",
-  "description": "LibrePIM - Community-Maintained Fork of the Akeneo PIM Community Edition | Security patches, bug fixes, performance improvements, and more."
+  "description": "LibrePIM - Community-Maintained Fork of the Akeneo PIM Community Edition | Security patches, bug fixes, performance improvements, and more.",
   "license": "OSL-3.0",
   "type": "project",
   "authors": [
@@ -32,18 +32,18 @@
     "libre-pim/librepim-dev": "master"
   },
   "require-dev": {
-    "symfony/debug-bundle": "^5.4.0",
-    "symfony/web-profiler-bundle": "^5.4.0"
+    "symfony/debug-bundle": "^6.4.0",
+    "symfony/web-profiler-bundle": "^6.4.0"
   },
   "scripts": {
     "post-update-cmd": [
-      "vendor/libre-pim/librepim-dev/std-build/install-required-files.sh"
+      "vendor/librepim/librepim-dev/std-build/install-required-files.sh"
     ],
     "post-install-cmd": [
-      "vendor/libre-pim/librepim-dev/std-build/install-required-files.sh"
+      "vendor/librepim/librepim-dev/std-build/install-required-files.sh"
     ],
     "post-create-project-cmd": [
-      "vendor/libre-pim/librepim-dev/std-build/install-required-files.sh"
+      "vendor/librepim/librepim-dev/std-build/install-required-files.sh"
     ]
   },
   "minimum-stability": "stable",
@@ -54,7 +54,7 @@
   },
   "extra": {
     "symfony": {
-      "require": "5.4.*"
+      "require": "6.4.*"
     }
   }
 }
