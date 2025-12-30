@@ -29,7 +29,7 @@
     ]
   },
   "require": {
-    "libre-pim/librepim-dev": "master"
+    "librepim/librepim-dev": "dev-master"
   },
   "require-dev": {
     "symfony/debug-bundle": "^6.4.0",
