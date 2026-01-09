@@ -44,9 +44,9 @@ Community participation is welcome and appreciated.
 Run the following commands in an **empty directory**:
 
 ```bash
-docker run -u www-data -v $(pwd):/srv/pim -w /srv/pim --rm akeneo/pim-php-dev:8.1 \
+docker run -u www-data -v $(pwd):/srv/pim -w /srv/pim --rm webkul/librepim-php-dev:8.3 \
     php /usr/local/bin/composer create-project --prefer-dist \
-    libre-pim/librepim-standard /srv/pim "master"
+    librepim/librepim-standard /srv/pim "dev-master@dev"
 ```
 
 ```bash
@@ -69,7 +69,7 @@ make down
 
 ```bash
 php /usr/local/bin/composer create-project --prefer-dist \
-    libre-pim/librepim-standard /srv/pim "master"
+    librepim/librepim-standard /srv/pim "dev-master@dev"
 ```
 
 Configure `.env` with your MySQL and Elasticsearch credentials.
