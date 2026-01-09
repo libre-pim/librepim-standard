@@ -49,7 +49,11 @@
   "minimum-stability": "stable",
   "config": {
     "allow-plugins": {
-      "symfony/flex": true
+      "symfony/flex": true,
+      "php-http/discovery": true
+    },
+    "audit": {
+        "block-insecure": false
     }
   },
   "extra": {
